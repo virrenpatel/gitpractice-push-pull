@@ -25,12 +25,12 @@ Feature: Register page
     Given I am on homepage
     When I click on Register link
     And I click on female radio button
-    And I enter firstname "Dhyani"
-    And I enter lastname "Patel"
-    And I select date of birth "20","May","1985"
-    And I enter email "dhyani1@gmail.com"
-    And I enter password "dhyani123"
-    And I enter confirm password "dhyani123"
+    And I enter firstname "Manan"
+    And I enter lastname "Shah"
+    And I select date of birth "12","June","1999"
+    And I enter email "mshah123@gmail.com"
+    And I enter password "password123"
+    And I enter confirm password "password123"
     And I click on register button
     Then I should see message Your registration completed
 

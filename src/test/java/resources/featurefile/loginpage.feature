@@ -11,8 +11,8 @@ Feature: Login Test
   Scenario: Verify the error message with invalid credentials
     Given I am on homepage
     When I click on login link
-    And I enter email "prime123@gmail.com"
-    And I enter Password "prime123"
+    And I enter email "123test@gmail.com"
+    And I enter Password "password123"
     And I click on Login button
     Then I am unable to login with invalid credentials
 
@@ -20,8 +20,8 @@ Feature: Login Test
   Scenario: Verify that user should login successfully with valid credentials
     Given I am on homepage
     When I click on login link
-    And I enter email "dev123@gmail.com"
-    And I enter Password "dev123"
+    And I enter email "123test@gmail.com"
+    And I enter Password "password123"
     And I click on Login button
     Then I should login successfully with valid credentials
 
@@ -29,8 +29,8 @@ Feature: Login Test
   Scenario: Verify that user should logOut successFully
     Given I am on homepage
     When I click on login link
-    And I enter email "dev123@gmail.com"
-    And I enter Password "dev123"
+    And I enter email "123test@gmail.com"
+    And I enter Password "password123"
     And I click on Login button
     And I click on logout link
     Then I should logOut successFully and i should see login link
