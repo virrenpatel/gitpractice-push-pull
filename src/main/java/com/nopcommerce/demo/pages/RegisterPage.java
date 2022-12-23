@@ -78,6 +78,10 @@ public class RegisterPage extends Utility {
     @FindBy(css = ".button-1.register-continue-button")
     WebElement continueBtn;
 
+    @CacheLookup
+    @FindBy(xpath = "")
+    WebElement savu;
+
 
     public String getRegisterText() {
         String message = getTextFromElement(registerText);
