@@ -17,6 +17,8 @@ public class RegisterPage extends Utility {
 
     private static final Logger log = LogManager.getLogger(RegisterPage.class.getName());
     //private static final Logger log = LogManager.getLogger(RegisterPage.class.getName());
+    //private static final Logger log = LogManager.getLogger(RegisterPage.class.getName());
+    //private static final Logger log = LogManager.getLogger(RegisterPage.class.getName());
 
     public RegisterPage() {
         PageFactory.initElements(driver, this);
